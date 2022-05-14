@@ -122,7 +122,7 @@ Moving forward, the future research could expand the scale of the data and inclu
 - [Presentation](https://youtu.be/BYlvw7F4xEw)
 
 ## Data Sources
-- [World Governance Indicators] (http://info.worldbank.org/governance/wgi)
+- [World Governance Indicators](http://info.worldbank.org/governance/wgi)
 - [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators
 
 ## IO Page
