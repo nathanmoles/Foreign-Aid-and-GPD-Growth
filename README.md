@@ -10,6 +10,7 @@ There is a growing body of research showing that the effectiveness of aid in pro
 
 First, we will conduct exploratory data analysis to extract some non-obvious/actionable insights that aid distributing agencies can use in the future to improve the effectiveness of the aid. Finally, we will use a logistic regression to see if amount of foreign aid is a good predictor of the per capita GDP growth rate next year. We do not expect to get results implying that foreign aid does in fact promote economic prosperity in developing countries. We believe that the reasons why countries have low economic development levels are complex and just transfering funds to nations in not an effective method of solving those issues. Our project will contribute to the body of research trying to check the effectiveness of the steps taken by Western nations to combat hunger, underdevelopment, and economic destitution in poor countries.
 
+
 ## Data Understanding
 
 **Data Information:**
@@ -32,6 +33,7 @@ Our merged dataframe contains information about total GDP for each country and t
 
 
 ## Exploratory Data Analysis
+
 ### Variable Distribution
 ![image](https://user-images.githubusercontent.com/48035682/168407096-145ceddf-2436-4b25-8601-61de2438f741.png)
 
@@ -86,15 +88,14 @@ We create a scatterplot of per capita GDP growth rate and the foreign aid as a p
 
 ![image](https://user-images.githubusercontent.com/48035682/168407283-3c7a73b9-bc87-4f13-b8cd-4d0197bcfc62.png)
 
-Since economic research shows there might be a relationship between the effectiveness of the foreign aid and the quality of governance in the country we create a correlation heatmap to find the variables that should we control for when testing for the relationship between foreign aid level and the economic performance.
-
-###Heatmap
+### Heatmap
 Since economic research shows there might be a relationship between the effectiveness of the foreign aid and the quality of governance in the country we create a correlation heatmap to find the variables that should we control for when testing for the relationship between foreign aid level and the economic performance.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407438-255e7413-8f67-42b2-98f3-d02449d6e3f8.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407461-a827baf8-7e78-4b29-ab49-c63ee6b12dbb.png)
 
 The heatmaps look different for each year which implies that there are other factors that affect the relationship between these variables. There is near zero correlation between Foreign Aid and per capita GDP growth rates in most of the years. However, the correlation is stronger.
+
 
 ##Modeling & Evaluation
 To test the effectiveness of the foreign aid in promoting growth, economic development, and prosperity we use softmax logistic regression. We divide countries into three groups based on their level of per capita GDP growth rate. We check how good of a predictor our model is for the economic performance of each country. We use a vector of governance indicators as control variables to ensure that we control for differences in the quality of political and economic institutions. 
@@ -103,6 +104,7 @@ To test the effectiveness of the foreign aid in promoting growth, economic devel
 ![image](https://user-images.githubusercontent.com/48035682/168407507-fa9c0c8b-22cc-40d1-8d88-b06d53cd2dc6.png)
 
 Based on the cofusion matrix above we see that our model does not do a great job at classifying the countries based on the per capita GDP growth rate. Each entry in the normalized confusion matrix is close to 0.33. This result is in line with our expectations. As we hypothesised, foreign aid is not effectiveness at promoting growth, economic development, and prosperity.
+
 
 ## Deployment
 The goal of our project was to assess the effectiveness of foreign aid in promoting growth, economic development, and prosperity. We used the data from World Bank about each country’s quality of governance, economic performance, and the amount of foreign aid received. Based on our analysis we can make several conclusions.
