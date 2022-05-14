@@ -104,7 +104,7 @@ To test the effectiveness of the foreign aid in promoting growth, economic devel
 
 Based on the cofusion matrix above we see that our model does not do a great job at classifying the countries based on the per capita GDP growth rate. Each entry in the normalized confusion matrix is close to 0.33. This result is in line with our expectations. As we hypothesised, foreign aid is not effectiveness at promoting growth, economic development, and prosperity.
 
-##Deployment
+## Deployment
 The goal of our project was to assess the effectiveness of foreign aid in promoting growth, economic development, and prosperity. We used the data from World Bank about each country’s quality of governance, economic performance, and the amount of foreign aid received. Based on our analysis we can make several conclusions.
 
 First, the quality of governance in the country has an important effect on the performance of the economy. More specifically on the per capita GDP growth rate. This is an important finding, since per capita GDP is flawed but still the best measure of quality of life in a country. We see that to improve the quality and livelihood of people it is crucial to improve the quality of governance, lower the corruption rate, strengthen the rule of law, and make country more democratic. Without strengthening political and economic institutions it will be impossible to promote economic prosperity in the least developed countries.
