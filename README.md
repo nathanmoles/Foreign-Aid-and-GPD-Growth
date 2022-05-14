@@ -16,6 +16,8 @@ First, we will conduct exploratory data analysis to extract some non-obvious/act
 
 All the datasets used in our analysis contain country level panel data. The data containing information about country's total GDP, per capita GDP growth rate, and the amount of foreign aid received each year comes from the World Bank's World Development Indicators dataset. The World Development Indicators is a compilation of relevant, high-quality, and internationally comparable statistics about global development and the fight against poverty. The database contains 1,400 time series indicators for 217 economies and more than 40 country groups, with data for many indicators going back more than 50 years. The data containing information about indices for different measure of quality of governance comes from the World Bank's Worldwide Governance Indicators project. WGI reports aggregate and individual governance indicators for over 200 countries and territories over the period 1996–2020, for six dimensions of governance: Voice and Accountability, Political Stability and Absence of Violence/Terrorism, Government Effectiveness,Regulatory Quality, Rule of Law, and Control of Corruption.
 
+![newplot](https://user-images.githubusercontent.com/48035682/168406107-6fcadf9c-4c32-49fb-85a4-1a650157ebe2.png)
+![newplot (2)](https://user-images.githubusercontent.com/48035682/168406827-227107d3-5892-447e-ba70-d205995de232.png)
 
 ```HTML
 <head><meta charset="utf-8" /></head>
@@ -99,8 +101,6 @@ fig = go.Figure(data=[go.Table(
 # display the table
 fig.show()
 ```
-![newplot](https://user-images.githubusercontent.com/48035682/168406107-6fcadf9c-4c32-49fb-85a4-1a650157ebe2.png)
-![newplot (1)](https://user-images.githubusercontent.com/48035682/168406110-677511e8-63c6-4e30-9ae5-ba93ecfc1df2.png)
 
 
 
