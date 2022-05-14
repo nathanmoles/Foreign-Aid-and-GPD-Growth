@@ -98,7 +98,8 @@ fig = go.Figure(data=[go.Table(
 
 # display the table
 fig.show()
-```![newplot](https://user-images.githubusercontent.com/48035682/168406107-6fcadf9c-4c32-49fb-85a4-1a650157ebe2.png)
+```
+![newplot](https://user-images.githubusercontent.com/48035682/168406107-6fcadf9c-4c32-49fb-85a4-1a650157ebe2.png)
 ![newplot (1)](https://user-images.githubusercontent.com/48035682/168406110-677511e8-63c6-4e30-9ae5-ba93ecfc1df2.png)
 
 
