@@ -1,4 +1,5 @@
 # Testing The Effectiveness of Foreign Aid
+##By Nathan Moles, Konstantine Jalagonia, Peter Maria, John Paci
 
 ## Business Understanding
 
@@ -12,8 +13,6 @@ First, we will conduct exploratory data analysis to extract some non-obvious/act
 
 
 ## Data Understanding
-
-**Data Information:**
 
 All the datasets used in our analysis contain country level panel data. The data containing information about country's total GDP, per capita GDP growth rate, and the amount of foreign aid received each year comes from the World Bank's World Development Indicators dataset. The World Development Indicators is a compilation of relevant, high-quality, and internationally comparable statistics about global development and the fight against poverty. The database contains 1,400 time series indicators for 217 economies and more than 40 country groups, with data for many indicators going back more than 50 years. The data containing information about indices for different measure of quality of governance comes from the World Bank's Worldwide Governance Indicators project. WGI reports aggregate and individual governance indicators for over 200 countries and territories over the period 1996–2020, for six dimensions of governance: Voice and Accountability, Political Stability and Absence of Violence/Terrorism, Government Effectiveness,Regulatory Quality, Rule of Law, and Control of Corruption.
 
@@ -116,3 +115,20 @@ Second, our logistic regression showed that foreign aid received as a percent of
 The previous discussion suggests that foreign aid fails to stimulate growth because of reasons related to both recipient and donors. LDCs tend to have low-quality governance and weak institutions, which leads to improper allocation of funds, rent-seeking activities and lowers the incentives to solve collective action problems. On the other hand, donors are reluctant to admit the failure and adjust the aid policy to address the issues. However, a better understanding of both the demand and supply side of the aid can help us design remedial policies. Foreign aid is highly ineffective in the current form, but development organizations can resolve the problem by changing the way the aid is distributed or by making the aid conditional on future reforms. This will ensure that the aid is correctly distributed and also improve the quality of governance in developing nations which is crucial factor for the long-term sustained economic growth and prosperity.
 
 Moving forward, the future research could expand the scale of the data and include more features. It is possible to use other regression methods that could identify important patterns in the data and try to find factors that are cause of the foreign aid's ineffectiveness. Most importantly, future research could use more granular data that contains information about different types of foreign aid that was distributed to least developed countries and the economic sectors that were targeted. This could enable the researchers to find the optimal method of providing foreign aid that promotes economic activity, alleviates provetry, and improves the quality of life of the destitiute.
+
+### Resources
+## YouTube Video Links
+- [Code Walk-Through on Youtube](https://youtu.be/-tQ_Oe77FNk)
+- [Presentation](https://youtu.be/BYlvw7F4xEw)
+
+## Data Sources
+- [World Governance Indicators] (http://info.worldbank.org/governance/wgi)
+- [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators
+
+## IO Page
+- [Github IO Page] https://molesnathan1.github.io/Foreign-Aid-and-GPD-Growth/
+
+## Google Colab
+
+
+
