@@ -1,4 +1,4 @@
-# Foreign-Aid-and-GPD-Growth
+# Testing The Effectiveness of Foreign Aid
 
 ## Business Understanding
 
