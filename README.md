@@ -117,7 +117,7 @@ Moving forward, the future research could expand the scale of the data and inclu
 
 ### Resources
 ## YouTube Video Links
-- [Code Walk-Through on Youtube](https://youtu.be/-tQ_Oe77FNk)
+- [Tutorial](https://youtu.be/7O8N1TaMw9k)
 - [Presentation](https://youtu.be/XID5B6jMt2k)
 
 ## Data Sources
