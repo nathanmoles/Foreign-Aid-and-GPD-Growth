@@ -34,15 +34,19 @@ Our merged dataframe contains information about total GDP for each country and t
 ## Exploratory Data Analysis
 ### Variable Distribution
 ![image](https://user-images.githubusercontent.com/48035682/168407096-145ceddf-2436-4b25-8601-61de2438f741.png)
+
 The distribution of per capita GDP growth rates does not seem to be normally distributed. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is equal to zero implying that we can not assert the normality of the distribution. The minimum per capita GDP growth rate in our data is -62.37% and a maximum value is 121.79%, with a mean of 2.31% and median of 2.61%.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407123-396ed37c-d93d-47c6-b354-2d9f42c8d087.png)
+
 The distribution of the foreign aid recieved by countries does not seem to be normally distributed. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is equal to zero implying that we can not assert the normality of the distribution. The minimum foreign aid recieved by a country is -9.97 * 10^8. The negative value of foreign aid means that the country is giving foreign aid to others. The maximum value is 2.56 * 10^8, with a mean of 5.77 * 10^8 and median of 2.54 * 10^8.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407130-3d5c9158-e955-44d6-8c7a-553572f1e7f0.png)
+
 The distribution of Voice and Accountability index does not seem to be normally distributed. The distribution is skewed to left. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is close to zero implying that we can not assert the normality of the distribution. The minimum Voice and Accountability index in our data is -2.26 and a maximum value is 1.37, with a mean of -0.3 and median of -0.24.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407133-9afa2564-f305-401d-bf68-8fac2deaac91.png)
+
 The distribution of Political Stability and Absence of Violence index does not seem to be normally distributed. The distribution is skewed to left. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is close to zero implying that we can not assert the normality of the distribution. The minimum value of Political Stability and Absence of Violence index in our data is -3.18 and a maximum value is 1.60, with a mean of -0.27 and median of -0.23.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407147-64ca79cd-dc28-4249-9f9f-441ab6a433a4.png)
