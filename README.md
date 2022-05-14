@@ -97,7 +97,7 @@ Since economic research shows there might be a relationship between the effectiv
 The heatmaps look different for each year which implies that there are other factors that affect the relationship between these variables. There is near zero correlation between Foreign Aid and per capita GDP growth rates in most of the years. However, the correlation is stronger.
 
 
-##Modeling & Evaluation
+## Modeling & Evaluation
 To test the effectiveness of the foreign aid in promoting growth, economic development, and prosperity we use softmax logistic regression. We divide countries into three groups based on their level of per capita GDP growth rate. We check how good of a predictor our model is for the economic performance of each country. We use a vector of governance indicators as control variables to ensure that we control for differences in the quality of political and economic institutions. 
 
 ![image](https://user-images.githubusercontent.com/48035682/168407505-3a351436-50c1-46e1-9cc2-ddf8341ab1cf.png)
