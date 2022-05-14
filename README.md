@@ -50,45 +50,58 @@ The distribution of Voice and Accountability index does not seem to be normally 
 The distribution of Political Stability and Absence of Violence index does not seem to be normally distributed. The distribution is skewed to left. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is close to zero implying that we can not assert the normality of the distribution. The minimum value of Political Stability and Absence of Violence index in our data is -3.18 and a maximum value is 1.60, with a mean of -0.27 and median of -0.23.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407147-64ca79cd-dc28-4249-9f9f-441ab6a433a4.png)
+
 The distribution of the Government Effectiveness index does not seem to be normally distributed. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is close to zero implying that we can not assert the normality of the distribution. The minimum value of the Government Effectiveness index in our data is -2.44 and a maximum value is 2.20, with a mean of -0.39 and median of -0.46.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407173-94164122-3f86-4b10-8294-cec23fbb9d0a.png)
+
 The distribution of the Regulatory Quality index does not seem to be normally distributed. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is close to zero implying that we can not assert the normality of the distribution. The minimum Regulatory Quality index in our data is -2.62 and a maximum value is 2.23, with a mean of -0.37 and median of -0.39.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407193-7195d3b2-f795-4674-8987-c4099456fe9e.png)
+
 The distribution of the Rule of Law index does not seem to be normally distributed. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is close to zero implying that we can not assert the normality of the distribution. The minimum value of the Rule of Law index in our data is -2.35 and a maximum value is 1.70, with a mean of -0.40 and median of -0.47.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407196-48df650a-868a-4460-a8b4-0b0223f1e6d5.png)
+
 The distribution of the Control of Corruption index does not seem to be normally distributed. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is close to zero implying that we can not assert the normality of the distribution. The minimum value of the Control of Corruption index in our data is -1.81 and a maximum value is 2.32, with a mean of -0.39 and median of -0.48.
 
 ![image](https://user-images.githubusercontent.com/48035682/168407208-6cdd5989-739b-41e7-a98e-c318ef7b7a6e.png)
+
 The distribution of the Foreign Aid as a Percent of GDP is not normally distributed. We conduct the Shapiro-Wilk normality test to check the validity of our assumption. P-value is zero implying that we can not assert the normality of the distribution. The minimum value of the Foreign Aid as a Percent of GDP in our data is -1.25% and a maximum value is 144.84%, with a mean of 4.32% and median of 2.00%.
 
 ### World Maps
 We create the world maps for each year based on the per capita GDP growth rate and the level of the foreign aid received. We want to check if some interesting patterns emerge in data over time. We also want to check our hypothesis that there is no relationship between foreign aid and economic performace.
+
 ![image](https://user-images.githubusercontent.com/48035682/168407371-90d87303-e66c-4701-a97d-85c47061fe30.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407373-18432af6-2df1-4d2f-8b54-ee5771f9b715.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407379-24c5159d-a032-4ba6-a777-f1a5d1392105.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407388-c5a444a1-5cc0-4546-adc3-713ba4419b7f.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407396-fdd85061-78ed-4b83-9a64-4a6f90247d7d.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407404-3cc58ad4-03c0-4db6-8deb-abbd7d0ba8c4.png)
+
 Based on the maps we see several interesting patters. First, countries that are foreign aid recipients in one year are almost always receiving aid in the folloing period as well. This implies that poor countries stay poor and there is no improvement in their economic performance. Second, countries economic performance in one period has an important effect on the following year. For example, China has had high economic growth level in each year. Lastly, the maps support our hypothesis that there is no clearly defined relationship between foreign aid and per capita GDP growth rate.
 
 ### Scatterplot
 We create a scatterplot of per capita GDP growth rate and the foreign aid as a percent of total GDP. We also plot a line of best fit. This scatterplot supports our findings from the world map visualizations. There seems to be no relatinship between the two variables.
+
 ![image](https://user-images.githubusercontent.com/48035682/168407283-3c7a73b9-bc87-4f13-b8cd-4d0197bcfc62.png)
+
 Since economic research shows there might be a relationship between the effectiveness of the foreign aid and the quality of governance in the country we create a correlation heatmap to find the variables that should we control for when testing for the relationship between foreign aid level and the economic performance.
 
 ###Heatmap
 Since economic research shows there might be a relationship between the effectiveness of the foreign aid and the quality of governance in the country we create a correlation heatmap to find the variables that should we control for when testing for the relationship between foreign aid level and the economic performance.
+
 ![image](https://user-images.githubusercontent.com/48035682/168407438-255e7413-8f67-42b2-98f3-d02449d6e3f8.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407461-a827baf8-7e78-4b29-ab49-c63ee6b12dbb.png)
+
 The heatmaps look different for each year which implies that there are other factors that affect the relationship between these variables. There is near zero correlation between Foreign Aid and per capita GDP growth rates in most of the years. However, the correlation is stronger.
 
 ##Modeling & Evaluation
 To test the effectiveness of the foreign aid in promoting growth, economic development, and prosperity we use softmax logistic regression. We divide countries into three groups based on their level of per capita GDP growth rate. We check how good of a predictor our model is for the economic performance of each country. We use a vector of governance indicators as control variables to ensure that we control for differences in the quality of political and economic institutions. 
+
 ![image](https://user-images.githubusercontent.com/48035682/168407505-3a351436-50c1-46e1-9cc2-ddf8341ab1cf.png)
 ![image](https://user-images.githubusercontent.com/48035682/168407507-fa9c0c8b-22cc-40d1-8d88-b06d53cd2dc6.png)
+
 Based on the cofusion matrix above we see that our model does not do a great job at classifying the countries based on the per capita GDP growth rate. Each entry in the normalized confusion matrix is close to 0.33. This result is in line with our expectations. As we hypothesised, foreign aid is not effectiveness at promoting growth, economic development, and prosperity.
 
 ##Deployment
