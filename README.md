@@ -1,5 +1,5 @@
 # Testing The Effectiveness of Foreign Aid
-## By Nathan Moles, Konstantine Jalagonia, Peter Maria, John Paci
+### By Nathan Moles, Konstantine Jalagonia, Peter Maria, John Paci
 
 ## Business Understanding
 
