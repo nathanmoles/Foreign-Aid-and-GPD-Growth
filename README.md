@@ -123,10 +123,10 @@ Moving forward, the future research could expand the scale of the data and inclu
 
 ## Data Sources
 - [World Governance Indicators](http://info.worldbank.org/governance/wgi)
-- [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators
+- [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
 
 ## IO Page
-- [Github IO Page] https://molesnathan1.github.io/Foreign-Aid-and-GPD-Growth/
+- [Github IO Page](https://molesnathan1.github.io/Foreign-Aid-and-GPD-Growth/)
 
 ## Google Colab
 
